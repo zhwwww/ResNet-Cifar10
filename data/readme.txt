@@ -1,0 +1,3 @@
+rec文件太大了传不上来。
+解决办法：到cifar10官方库中下载python版本的batch文件，然后使用BatchToImg转化为原始图片，
+然后再使用im2rec将图片转化为rec文件。

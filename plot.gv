@@ -1,0 +1,757 @@
+digraph plot {
+	data [label=data fillcolor="#8dd3c7" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	id [label=id fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	bn_data [label=bn_data fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	conv0 [label="Convolution
+3x3/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_0_conv0 [label="Convolution
+1x1/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_0_bn0 [label=unit0_0_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_0_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_0_conv1 [label="Convolution
+3x3/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_0_bn1 [label=unit0_0_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_0_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_0_conv2 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_0_bn2 [label=unit0_0_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus0 [label=_plus0 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_0relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_1_conv0 [label="Convolution
+1x1/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_1_bn0 [label=unit0_1_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_1_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_1_conv1 [label="Convolution
+3x3/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_1_bn1 [label=unit0_1_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_1_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_1_conv2 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_1_bn2 [label=unit0_1_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus1 [label=_plus1 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_1relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_2_conv0 [label="Convolution
+1x1/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_2_bn0 [label=unit0_2_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_2_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_2_conv1 [label="Convolution
+3x3/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_2_bn1 [label=unit0_2_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_2_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_2_conv2 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_2_bn2 [label=unit0_2_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus2 [label=_plus2 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_2relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_3_conv0 [label="Convolution
+1x1/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_3_bn0 [label=unit0_3_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_3_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_3_conv1 [label="Convolution
+3x3/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_3_bn1 [label=unit0_3_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_3_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_3_conv2 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_3_bn2 [label=unit0_3_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus3 [label=_plus3 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_3relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_4_conv0 [label="Convolution
+1x1/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_4_bn0 [label=unit0_4_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_4_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_4_conv1 [label="Convolution
+3x3/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_4_bn1 [label=unit0_4_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_4_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_4_conv2 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_4_bn2 [label=unit0_4_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus4 [label=_plus4 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_4relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_5_conv0 [label="Convolution
+1x1/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_5_bn0 [label=unit0_5_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_5_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_5_conv1 [label="Convolution
+3x3/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_5_bn1 [label=unit0_5_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_5_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_5_conv2 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_5_bn2 [label=unit0_5_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus5 [label=_plus5 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_5relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_6_conv0 [label="Convolution
+1x1/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_6_bn0 [label=unit0_6_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_6_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_6_conv1 [label="Convolution
+3x3/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_6_bn1 [label=unit0_6_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_6_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_6_conv2 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_6_bn2 [label=unit0_6_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus6 [label=_plus6 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_6relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_7_conv0 [label="Convolution
+1x1/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_7_bn0 [label=unit0_7_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_7_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_7_conv1 [label="Convolution
+3x3/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_7_bn1 [label=unit0_7_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_7_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_7_conv2 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_7_bn2 [label=unit0_7_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus7 [label=_plus7 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_7relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_8_conv0 [label="Convolution
+1x1/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_8_bn0 [label=unit0_8_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_8_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_8_conv1 [label="Convolution
+3x3/1x1, 4" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_8_bn1 [label=unit0_8_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_8_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_8_conv2 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_8_bn2 [label=unit0_8_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus8 [label=_plus8 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit0_8relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_0_shortcut0 [label="Convolution
+1x1/2x2, 32" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_0_conv0 [label="Convolution
+1x1/2x2, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_0_bn0 [label=unit1_0_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_0_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_0_conv1 [label="Convolution
+3x3/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_0_bn1 [label=unit1_0_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_0_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_0_conv2 [label="Convolution
+1x1/1x1, 32" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_0_bn2 [label=unit1_0_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus9 [label=_plus9 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_0relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_1_conv0 [label="Convolution
+1x1/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_1_bn0 [label=unit1_1_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_1_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_1_conv1 [label="Convolution
+3x3/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_1_bn1 [label=unit1_1_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_1_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_1_conv2 [label="Convolution
+1x1/1x1, 32" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_1_bn2 [label=unit1_1_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus10 [label=_plus10 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_1relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_2_conv0 [label="Convolution
+1x1/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_2_bn0 [label=unit1_2_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_2_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_2_conv1 [label="Convolution
+3x3/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_2_bn1 [label=unit1_2_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_2_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_2_conv2 [label="Convolution
+1x1/1x1, 32" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_2_bn2 [label=unit1_2_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus11 [label=_plus11 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_2relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_3_conv0 [label="Convolution
+1x1/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_3_bn0 [label=unit1_3_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_3_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_3_conv1 [label="Convolution
+3x3/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_3_bn1 [label=unit1_3_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_3_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_3_conv2 [label="Convolution
+1x1/1x1, 32" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_3_bn2 [label=unit1_3_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus12 [label=_plus12 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_3relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_4_conv0 [label="Convolution
+1x1/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_4_bn0 [label=unit1_4_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_4_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_4_conv1 [label="Convolution
+3x3/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_4_bn1 [label=unit1_4_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_4_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_4_conv2 [label="Convolution
+1x1/1x1, 32" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_4_bn2 [label=unit1_4_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus13 [label=_plus13 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_4relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_5_conv0 [label="Convolution
+1x1/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_5_bn0 [label=unit1_5_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_5_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_5_conv1 [label="Convolution
+3x3/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_5_bn1 [label=unit1_5_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_5_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_5_conv2 [label="Convolution
+1x1/1x1, 32" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_5_bn2 [label=unit1_5_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus14 [label=_plus14 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_5relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_6_conv0 [label="Convolution
+1x1/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_6_bn0 [label=unit1_6_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_6_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_6_conv1 [label="Convolution
+3x3/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_6_bn1 [label=unit1_6_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_6_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_6_conv2 [label="Convolution
+1x1/1x1, 32" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_6_bn2 [label=unit1_6_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus15 [label=_plus15 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_6relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_7_conv0 [label="Convolution
+1x1/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_7_bn0 [label=unit1_7_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_7_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_7_conv1 [label="Convolution
+3x3/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_7_bn1 [label=unit1_7_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_7_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_7_conv2 [label="Convolution
+1x1/1x1, 32" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_7_bn2 [label=unit1_7_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus16 [label=_plus16 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_7relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_8_conv0 [label="Convolution
+1x1/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_8_bn0 [label=unit1_8_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_8_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_8_conv1 [label="Convolution
+3x3/1x1, 8" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_8_bn1 [label=unit1_8_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_8_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_8_conv2 [label="Convolution
+1x1/1x1, 32" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_8_bn2 [label=unit1_8_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus17 [label=_plus17 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit1_8relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_0_shortcut0 [label="Convolution
+1x1/2x2, 64" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_0_conv0 [label="Convolution
+1x1/2x2, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_0_bn0 [label=unit2_0_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_0_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_0_conv1 [label="Convolution
+3x3/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_0_bn1 [label=unit2_0_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_0_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_0_conv2 [label="Convolution
+1x1/1x1, 64" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_0_bn2 [label=unit2_0_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus18 [label=_plus18 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_0relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_1_conv0 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_1_bn0 [label=unit2_1_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_1_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_1_conv1 [label="Convolution
+3x3/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_1_bn1 [label=unit2_1_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_1_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_1_conv2 [label="Convolution
+1x1/1x1, 64" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_1_bn2 [label=unit2_1_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus19 [label=_plus19 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_1relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_2_conv0 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_2_bn0 [label=unit2_2_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_2_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_2_conv1 [label="Convolution
+3x3/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_2_bn1 [label=unit2_2_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_2_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_2_conv2 [label="Convolution
+1x1/1x1, 64" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_2_bn2 [label=unit2_2_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus20 [label=_plus20 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_2relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_3_conv0 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_3_bn0 [label=unit2_3_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_3_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_3_conv1 [label="Convolution
+3x3/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_3_bn1 [label=unit2_3_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_3_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_3_conv2 [label="Convolution
+1x1/1x1, 64" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_3_bn2 [label=unit2_3_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus21 [label=_plus21 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_3relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_4_conv0 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_4_bn0 [label=unit2_4_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_4_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_4_conv1 [label="Convolution
+3x3/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_4_bn1 [label=unit2_4_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_4_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_4_conv2 [label="Convolution
+1x1/1x1, 64" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_4_bn2 [label=unit2_4_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus22 [label=_plus22 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_4relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_5_conv0 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_5_bn0 [label=unit2_5_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_5_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_5_conv1 [label="Convolution
+3x3/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_5_bn1 [label=unit2_5_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_5_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_5_conv2 [label="Convolution
+1x1/1x1, 64" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_5_bn2 [label=unit2_5_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus23 [label=_plus23 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_5relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_6_conv0 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_6_bn0 [label=unit2_6_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_6_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_6_conv1 [label="Convolution
+3x3/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_6_bn1 [label=unit2_6_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_6_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_6_conv2 [label="Convolution
+1x1/1x1, 64" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_6_bn2 [label=unit2_6_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus24 [label=_plus24 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_6relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_7_conv0 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_7_bn0 [label=unit2_7_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_7_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_7_conv1 [label="Convolution
+3x3/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_7_bn1 [label=unit2_7_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_7_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_7_conv2 [label="Convolution
+1x1/1x1, 64" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_7_bn2 [label=unit2_7_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus25 [label=_plus25 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_7relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_8_conv0 [label="Convolution
+1x1/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_8_bn0 [label=unit2_8_bn0 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_8_relu0 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_8_conv1 [label="Convolution
+3x3/1x1, 16" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_8_bn1 [label=unit2_8_bn1 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_8_relu1 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_8_conv2 [label="Convolution
+1x1/1x1, 64" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_8_bn2 [label=unit2_8_bn2 fillcolor="#bebada" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	_plus26 [label=_plus26 fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	unit2_8relu2 [label="Activation
+relu" fillcolor="#ffffb3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	pool0 [label="Pooling
+avg, 7x7/1x1" fillcolor="#80b1d3" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	flatten0 [label=flatten0 fillcolor="#fdb462" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	fc0 [label="FullyConnected
+10" fillcolor="#fb8072" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	softmax_label [label=softmax_label fillcolor="#8dd3c7" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	softmax [label=softmax fillcolor="#fccde5" fixedsize=false height=0.8034 shape=oval style=filled width=1.3]
+	id -> data [label="3x28x28(float32)" arrowtail=open dir=back]
+	bn_data -> id [label="3x28x28(float32)" arrowtail=open dir=back]
+	conv0 -> bn_data [label="3x28x28(float32)" arrowtail=open dir=back]
+	unit0_0_conv0 -> conv0 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_0_bn0 -> unit0_0_conv0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_0_relu0 -> unit0_0_bn0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_0_conv1 -> unit0_0_relu0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_0_bn1 -> unit0_0_conv1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_0_relu1 -> unit0_0_bn1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_0_conv2 -> unit0_0_relu1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_0_bn2 -> unit0_0_conv2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus0 -> conv0 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus0 -> unit0_0_bn2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_0relu2 -> _plus0 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_1_conv0 -> unit0_0relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_1_bn0 -> unit0_1_conv0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_1_relu0 -> unit0_1_bn0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_1_conv1 -> unit0_1_relu0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_1_bn1 -> unit0_1_conv1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_1_relu1 -> unit0_1_bn1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_1_conv2 -> unit0_1_relu1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_1_bn2 -> unit0_1_conv2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus1 -> unit0_0relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus1 -> unit0_1_bn2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_1relu2 -> _plus1 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_2_conv0 -> unit0_1relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_2_bn0 -> unit0_2_conv0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_2_relu0 -> unit0_2_bn0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_2_conv1 -> unit0_2_relu0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_2_bn1 -> unit0_2_conv1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_2_relu1 -> unit0_2_bn1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_2_conv2 -> unit0_2_relu1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_2_bn2 -> unit0_2_conv2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus2 -> unit0_1relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus2 -> unit0_2_bn2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_2relu2 -> _plus2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_3_conv0 -> unit0_2relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_3_bn0 -> unit0_3_conv0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_3_relu0 -> unit0_3_bn0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_3_conv1 -> unit0_3_relu0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_3_bn1 -> unit0_3_conv1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_3_relu1 -> unit0_3_bn1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_3_conv2 -> unit0_3_relu1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_3_bn2 -> unit0_3_conv2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus3 -> unit0_2relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus3 -> unit0_3_bn2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_3relu2 -> _plus3 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_4_conv0 -> unit0_3relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_4_bn0 -> unit0_4_conv0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_4_relu0 -> unit0_4_bn0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_4_conv1 -> unit0_4_relu0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_4_bn1 -> unit0_4_conv1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_4_relu1 -> unit0_4_bn1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_4_conv2 -> unit0_4_relu1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_4_bn2 -> unit0_4_conv2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus4 -> unit0_3relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus4 -> unit0_4_bn2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_4relu2 -> _plus4 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_5_conv0 -> unit0_4relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_5_bn0 -> unit0_5_conv0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_5_relu0 -> unit0_5_bn0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_5_conv1 -> unit0_5_relu0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_5_bn1 -> unit0_5_conv1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_5_relu1 -> unit0_5_bn1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_5_conv2 -> unit0_5_relu1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_5_bn2 -> unit0_5_conv2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus5 -> unit0_4relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus5 -> unit0_5_bn2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_5relu2 -> _plus5 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_6_conv0 -> unit0_5relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_6_bn0 -> unit0_6_conv0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_6_relu0 -> unit0_6_bn0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_6_conv1 -> unit0_6_relu0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_6_bn1 -> unit0_6_conv1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_6_relu1 -> unit0_6_bn1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_6_conv2 -> unit0_6_relu1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_6_bn2 -> unit0_6_conv2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus6 -> unit0_5relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus6 -> unit0_6_bn2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_6relu2 -> _plus6 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_7_conv0 -> unit0_6relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_7_bn0 -> unit0_7_conv0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_7_relu0 -> unit0_7_bn0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_7_conv1 -> unit0_7_relu0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_7_bn1 -> unit0_7_conv1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_7_relu1 -> unit0_7_bn1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_7_conv2 -> unit0_7_relu1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_7_bn2 -> unit0_7_conv2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus7 -> unit0_6relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus7 -> unit0_7_bn2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_7relu2 -> _plus7 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_8_conv0 -> unit0_7relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_8_bn0 -> unit0_8_conv0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_8_relu0 -> unit0_8_bn0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_8_conv1 -> unit0_8_relu0 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_8_bn1 -> unit0_8_conv1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_8_relu1 -> unit0_8_bn1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_8_conv2 -> unit0_8_relu1 [label="4x28x28(float32)" arrowtail=open dir=back]
+	unit0_8_bn2 -> unit0_8_conv2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus8 -> unit0_7relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	_plus8 -> unit0_8_bn2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit0_8relu2 -> _plus8 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit1_0_shortcut0 -> unit0_8relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit1_0_conv0 -> unit0_8relu2 [label="16x28x28(float32)" arrowtail=open dir=back]
+	unit1_0_bn0 -> unit1_0_conv0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_0_relu0 -> unit1_0_bn0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_0_conv1 -> unit1_0_relu0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_0_bn1 -> unit1_0_conv1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_0_relu1 -> unit1_0_bn1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_0_conv2 -> unit1_0_relu1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_0_bn2 -> unit1_0_conv2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus9 -> unit1_0_shortcut0 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus9 -> unit1_0_bn2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_0relu2 -> _plus9 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_1_conv0 -> unit1_0relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_1_bn0 -> unit1_1_conv0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_1_relu0 -> unit1_1_bn0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_1_conv1 -> unit1_1_relu0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_1_bn1 -> unit1_1_conv1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_1_relu1 -> unit1_1_bn1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_1_conv2 -> unit1_1_relu1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_1_bn2 -> unit1_1_conv2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus10 -> unit1_0relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus10 -> unit1_1_bn2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_1relu2 -> _plus10 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_2_conv0 -> unit1_1relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_2_bn0 -> unit1_2_conv0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_2_relu0 -> unit1_2_bn0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_2_conv1 -> unit1_2_relu0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_2_bn1 -> unit1_2_conv1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_2_relu1 -> unit1_2_bn1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_2_conv2 -> unit1_2_relu1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_2_bn2 -> unit1_2_conv2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus11 -> unit1_1relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus11 -> unit1_2_bn2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_2relu2 -> _plus11 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_3_conv0 -> unit1_2relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_3_bn0 -> unit1_3_conv0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_3_relu0 -> unit1_3_bn0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_3_conv1 -> unit1_3_relu0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_3_bn1 -> unit1_3_conv1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_3_relu1 -> unit1_3_bn1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_3_conv2 -> unit1_3_relu1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_3_bn2 -> unit1_3_conv2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus12 -> unit1_2relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus12 -> unit1_3_bn2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_3relu2 -> _plus12 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_4_conv0 -> unit1_3relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_4_bn0 -> unit1_4_conv0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_4_relu0 -> unit1_4_bn0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_4_conv1 -> unit1_4_relu0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_4_bn1 -> unit1_4_conv1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_4_relu1 -> unit1_4_bn1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_4_conv2 -> unit1_4_relu1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_4_bn2 -> unit1_4_conv2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus13 -> unit1_3relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus13 -> unit1_4_bn2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_4relu2 -> _plus13 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_5_conv0 -> unit1_4relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_5_bn0 -> unit1_5_conv0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_5_relu0 -> unit1_5_bn0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_5_conv1 -> unit1_5_relu0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_5_bn1 -> unit1_5_conv1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_5_relu1 -> unit1_5_bn1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_5_conv2 -> unit1_5_relu1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_5_bn2 -> unit1_5_conv2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus14 -> unit1_4relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus14 -> unit1_5_bn2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_5relu2 -> _plus14 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_6_conv0 -> unit1_5relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_6_bn0 -> unit1_6_conv0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_6_relu0 -> unit1_6_bn0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_6_conv1 -> unit1_6_relu0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_6_bn1 -> unit1_6_conv1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_6_relu1 -> unit1_6_bn1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_6_conv2 -> unit1_6_relu1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_6_bn2 -> unit1_6_conv2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus15 -> unit1_5relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus15 -> unit1_6_bn2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_6relu2 -> _plus15 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_7_conv0 -> unit1_6relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_7_bn0 -> unit1_7_conv0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_7_relu0 -> unit1_7_bn0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_7_conv1 -> unit1_7_relu0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_7_bn1 -> unit1_7_conv1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_7_relu1 -> unit1_7_bn1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_7_conv2 -> unit1_7_relu1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_7_bn2 -> unit1_7_conv2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus16 -> unit1_6relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus16 -> unit1_7_bn2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_7relu2 -> _plus16 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_8_conv0 -> unit1_7relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_8_bn0 -> unit1_8_conv0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_8_relu0 -> unit1_8_bn0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_8_conv1 -> unit1_8_relu0 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_8_bn1 -> unit1_8_conv1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_8_relu1 -> unit1_8_bn1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_8_conv2 -> unit1_8_relu1 [label="8x14x14(float32)" arrowtail=open dir=back]
+	unit1_8_bn2 -> unit1_8_conv2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus17 -> unit1_7relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	_plus17 -> unit1_8_bn2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit1_8relu2 -> _plus17 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit2_0_shortcut0 -> unit1_8relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit2_0_conv0 -> unit1_8relu2 [label="32x14x14(float32)" arrowtail=open dir=back]
+	unit2_0_bn0 -> unit2_0_conv0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_0_relu0 -> unit2_0_bn0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_0_conv1 -> unit2_0_relu0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_0_bn1 -> unit2_0_conv1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_0_relu1 -> unit2_0_bn1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_0_conv2 -> unit2_0_relu1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_0_bn2 -> unit2_0_conv2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus18 -> unit2_0_shortcut0 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus18 -> unit2_0_bn2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_0relu2 -> _plus18 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_1_conv0 -> unit2_0relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_1_bn0 -> unit2_1_conv0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_1_relu0 -> unit2_1_bn0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_1_conv1 -> unit2_1_relu0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_1_bn1 -> unit2_1_conv1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_1_relu1 -> unit2_1_bn1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_1_conv2 -> unit2_1_relu1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_1_bn2 -> unit2_1_conv2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus19 -> unit2_0relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus19 -> unit2_1_bn2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_1relu2 -> _plus19 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_2_conv0 -> unit2_1relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_2_bn0 -> unit2_2_conv0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_2_relu0 -> unit2_2_bn0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_2_conv1 -> unit2_2_relu0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_2_bn1 -> unit2_2_conv1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_2_relu1 -> unit2_2_bn1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_2_conv2 -> unit2_2_relu1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_2_bn2 -> unit2_2_conv2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus20 -> unit2_1relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus20 -> unit2_2_bn2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_2relu2 -> _plus20 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_3_conv0 -> unit2_2relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_3_bn0 -> unit2_3_conv0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_3_relu0 -> unit2_3_bn0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_3_conv1 -> unit2_3_relu0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_3_bn1 -> unit2_3_conv1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_3_relu1 -> unit2_3_bn1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_3_conv2 -> unit2_3_relu1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_3_bn2 -> unit2_3_conv2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus21 -> unit2_2relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus21 -> unit2_3_bn2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_3relu2 -> _plus21 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_4_conv0 -> unit2_3relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_4_bn0 -> unit2_4_conv0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_4_relu0 -> unit2_4_bn0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_4_conv1 -> unit2_4_relu0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_4_bn1 -> unit2_4_conv1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_4_relu1 -> unit2_4_bn1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_4_conv2 -> unit2_4_relu1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_4_bn2 -> unit2_4_conv2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus22 -> unit2_3relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus22 -> unit2_4_bn2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_4relu2 -> _plus22 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_5_conv0 -> unit2_4relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_5_bn0 -> unit2_5_conv0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_5_relu0 -> unit2_5_bn0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_5_conv1 -> unit2_5_relu0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_5_bn1 -> unit2_5_conv1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_5_relu1 -> unit2_5_bn1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_5_conv2 -> unit2_5_relu1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_5_bn2 -> unit2_5_conv2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus23 -> unit2_4relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus23 -> unit2_5_bn2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_5relu2 -> _plus23 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_6_conv0 -> unit2_5relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_6_bn0 -> unit2_6_conv0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_6_relu0 -> unit2_6_bn0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_6_conv1 -> unit2_6_relu0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_6_bn1 -> unit2_6_conv1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_6_relu1 -> unit2_6_bn1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_6_conv2 -> unit2_6_relu1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_6_bn2 -> unit2_6_conv2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus24 -> unit2_5relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus24 -> unit2_6_bn2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_6relu2 -> _plus24 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_7_conv0 -> unit2_6relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_7_bn0 -> unit2_7_conv0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_7_relu0 -> unit2_7_bn0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_7_conv1 -> unit2_7_relu0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_7_bn1 -> unit2_7_conv1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_7_relu1 -> unit2_7_bn1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_7_conv2 -> unit2_7_relu1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_7_bn2 -> unit2_7_conv2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus25 -> unit2_6relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus25 -> unit2_7_bn2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_7relu2 -> _plus25 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_8_conv0 -> unit2_7relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_8_bn0 -> unit2_8_conv0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_8_relu0 -> unit2_8_bn0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_8_conv1 -> unit2_8_relu0 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_8_bn1 -> unit2_8_conv1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_8_relu1 -> unit2_8_bn1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_8_conv2 -> unit2_8_relu1 [label="16x7x7(float32)" arrowtail=open dir=back]
+	unit2_8_bn2 -> unit2_8_conv2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus26 -> unit2_7relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	_plus26 -> unit2_8_bn2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	unit2_8relu2 -> _plus26 [label="64x7x7(float32)" arrowtail=open dir=back]
+	pool0 -> unit2_8relu2 [label="64x7x7(float32)" arrowtail=open dir=back]
+	flatten0 -> pool0 [label="64x1x1(float32)" arrowtail=open dir=back]
+	fc0 -> flatten0 [label="64(float32)" arrowtail=open dir=back]
+	softmax -> fc0 [label="10(float32)" arrowtail=open dir=back]
+	softmax -> softmax_label [label="(float32)" arrowtail=open dir=back]
+}
